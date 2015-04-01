@@ -1,0 +1,193 @@
+/*
+Cosmic Fools CSS 1.0.0
+*/
+
+#everyother:nth-child(odd) {
+display:none !important;
+}
+
+#1tilt {
+-webkit-transform: rotate(1deg);
+}
+
+#2tilt {
+-webkit-transform: rotate(2deg);
+}
+
+#3tilt {
+-webkit-transform: rotate(3deg);
+}
+
+#4tilt {
+-webkit-transform: rotate(4deg);
+}
+
+#5tilt {
+-webkit-transform: rotate(5deg);
+}
+
+#6tilt {
+-webkit-transform: rotate(6deg);
+}
+
+#7tilt {
+-webkit-transform: rotate(7deg);
+}
+
+#8tilt {
+-webkit-transform: rotate(8deg);
+}
+
+#9tilt {
+-webkit-transform: rotate(9deg);
+}
+
+#10tilt {
+-webkit-transform: rotate(10deg);
+}
+
+#1blur {
+-webkit-filter: blur(1px);
+}
+
+#2blur {
+-webkit-filter: blur(2px);
+}
+
+#3blur {
+-webkit-filter: blur(3px);
+}
+
+#4blur {
+-webkit-filter: blur(4px);
+}
+
+#5blur {
+-webkit-filter: blur(5px);
+}
+
+#1blur {
+-webkit-filter: blur(6px);
+}
+
+#7blur {
+-webkit-filter: blur(7px);
+}
+
+#8blur {
+-webkit-filter: blur(8px);
+}
+
+#9blur {
+-webkit-filter: blur(9px);
+}
+
+#10blur {
+-webkit-filter: blur(10px);
+}
+
+#flip {
+    width: 100%;
+    height: 100%;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+#imgflip img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+}
+
+#mirrorword {
+
+          -webkit-transform:rotateY(180deg);
+          -moz-transform:rotateY(180deg);
+          -o-transform:rotateY(180deg);
+          -ms-transform:rotateY(180deg);
+          unicode-bidi:bidi-override;
+          direction:rtl;
+
+}
+
+#websitespin {
+
+  -webkit-animation: spin 5s linear infinite;
+    animation: spin 5s linear infinite;
+
+}
+
+#imgspin img {
+
+  -webkit-animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
+
+}
+
+#growtext {
+
+  -webkit-animation: grow 120s ease-in;
+  -moz-animation: grow 120s ease-in;
+  animation: grow 120s ease-in;
+
+}
+
+@-webkit-keyframes blur {
+  0%   { -webkit-filter: blur(0px); }
+  49%   { -webkit-filter: blur(0px); }
+  50%   { -webkit-filter: blur(1px); }
+  51%   { -webkit-filter: blur(0px); }
+  100%   { -webkit-filter: blur(0px); }
+}
+
+@-webkit-keyframes spin {
+  0%   { -webkit-transform: rotate(0deg); }
+  100%   { -webkit-transform: rotate(360deg); }
+}
+
+@-webkit-keyframes rainbow {
+  100% { -webkit-filter: hue-rotate(360deg); }
+}
+
+@-webkit-keyframes fall {
+  0%   { -webkit-transform: none; }
+  100%   { -webkit-transform: rotateX(-90deg); }
+}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100%   { transform: rotate(360deg); }
+}
+
+@keyframes fall {
+  0%   { transform: none; }
+  100%   { transform: rotateX(-90deg); }
+}
+
+@-moz-keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100%   { transform: rotate(360deg); }
+}
+
+@-moz-keyframes fall {
+  0%   { transform: none; }
+  100%   { transform: rotateX(-90deg); }
+}
+
+
+@-webkit-keyframes grow {
+  0%   { font-size: none; }
+  100%   { font-size: 80pt; }
+}
+@-moz-keyframes grow {
+  0%   { font-size: none; }
+  100%   { font-size: 80pt; }
+}
+@keyframes grow {
+  0%   { font-size: none; }
+  100%   { font-size: 80pt; }
+}

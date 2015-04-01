@@ -4,7 +4,9 @@ Cosmic Fools.css will only be updated on every april fools!
 
 Some pranks may not work on some browsers
 
-```#Pranks
+#Pranks
+
+```
 
 #everyother - Deletes every other paragrath
 
